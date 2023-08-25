@@ -93,7 +93,9 @@ public class Main {
                 }
                 else {
                     System.out.println("This item will not be added to your cart.");
-                    itemsRemoved.add(items.remove(i));          // removes the irrelevant item from the cart, and adds it to another ArrayList for the later calculations of the total.
+
+                    // removes the now irrelevant item from the cart, and adds it to another ArrayList for the later calculations of the total.
+                    itemsRemoved.add(items.remove(i));
                 }
             }
 
